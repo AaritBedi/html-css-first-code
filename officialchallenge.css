@@ -1,0 +1,63 @@
+.black-running-shoes {
+  color: black;
+  font-weight: bold;
+  font-size: 30;
+}
+
+.in-stock {
+  color: rgb(0,118,0);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.fdt-1 {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+.add-button {
+  background-color: rgb(255,216,20);
+  color: black;
+  border: none;
+  font-size: 13px;
+  border-radius: 26px;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  transition: background-color 0.15s, opacity 0.15s;
+
+}
+.add-button:hover {
+  background-color: rgb(249, 194, 13)
+}
+.add-button:active {
+  opacity: 0.4;
+}
+
+.buy-now-button {
+  background-color: rgb(255,164,28);
+  color: black;
+  border: none;
+  font-size: 13px;
+  border-radius: 26px;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.buy-now-button:hover {
+  background-color:rgb(255, 102, 0)
+}
+.buy-now-button:active {
+  opacity: 0.4;
+}
+
+.amazon-link {
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.amazon-link:hover {
+  color: rgb(255, 128, 0);
+}
